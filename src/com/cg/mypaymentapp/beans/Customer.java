@@ -8,8 +8,8 @@ public class Customer {
 
 	public Customer(String name2, String mobileNo2, Wallet wallet2) {
 		this.name = name2;
-		mobileNo = mobileNo2;
-		wallet = wallet2;
+		this.mobileNo = mobileNo2;
+		this.wallet = wallet2;
 	}
 
 	public String getName() {
@@ -35,6 +35,8 @@ public class Customer {
 	public void setWallet(Wallet wallet) {
 		this.wallet = wallet;
 	}
+
+	
 
 	@Override
 	public String toString() {
